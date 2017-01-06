@@ -60,4 +60,34 @@
 .header-menu-link:hover{
   border-bottom: 1px solid white;
 }
+
+.greeting{
+  height:855px;
+  text-align: center;
+  width: 100%;
+  display: table;
+
+    h1{
+      margin:0;
+      text-transform: uppercase;
+      color: white;
+      font-family: 'Myriad Pro';
+      font-size: 72px;
+      font-weight: 700;
+    }
+
+    p{
+      color: white;
+      font-family: 'Georgia';
+      font-size: 32px;
+      font-style: italic;
+      line-height: 47px;
+    }
+}
+
+.greeting-align{
+  display: table-cell;
+  vertical-align: middle;
+  height: inherit;
+}
 /*--------END HEADER----------*/
