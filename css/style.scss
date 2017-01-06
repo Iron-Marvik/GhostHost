@@ -1,5 +1,10 @@
 @import '_fonts';
 
+.clearfix{
+  content:"";
+  clear:both;
+  display: table;
+}
 /*--------HEADER----------*/
 
 .header{
@@ -8,7 +13,7 @@
 }
 
 .container{
-  height:1064px;
+  height:944px;
 }
 
 .header-nav{
@@ -89,5 +94,38 @@
   display: table-cell;
   vertical-align: middle;
   height: inherit;
+}
+
+.authorization{
+  position: relative;
+  width: 100%;
+  height:120px;
+  background-color: rgba(47, 172, 108, 0.91);
+  z-index: 0;
+}
+
+.login{
+  float:left;
+  width: 50%;
+  height: inherit;
+  background: url('../img/logBg.png') no-repeat 0 0;
+  background-size: cover;
+  clip-path: polygon(0% 0%, 100% 0%, 95% 100%, 0% 100%);
+}
+
+.login:hover{
+  background-color: rgb(33, 215, 250);
+}
+
+.register{
+  position: relative;
+  margin-left: 47.5%;
+  width: 52.5%;
+  height: inherit;
+  clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.register:hover{
+  background-color: rgba(47, 227, 108);
 }
 /*--------END HEADER----------*/
