@@ -126,6 +126,22 @@
 }
 
 .register:hover{
-  background-color: rgba(47, 227, 108);
+  background-color: rgb(47, 195, 108);
+}
+
+.login-text{
+  height:inherit;
+  line-height: 120px;
+  color: white;
+  font-family: Lato-Regular;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 50%;
+}
+
+.register-text{
+  @extend .login-text;
+  margin-left: 30%
 }
 /*--------END HEADER----------*/
