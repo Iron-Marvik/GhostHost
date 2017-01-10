@@ -145,3 +145,94 @@
   margin-left: 30%
 }
 /*--------END HEADER----------*/
+
+/*----------DOMAIN----------*/
+.domain-bg{
+  background-color: white;
+}
+
+.domain-headline{
+  margin-top: 90px;
+  text-align: center;
+  color: #383737;
+  font-family: Lato-Regular;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.domain-container{
+  height:578px;
+}
+
+.domain-description{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  color: #a2a2a2;
+  font-family: Montserrat-UltraLight;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.input-domain{
+  width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+}
+.www{
+  text-align: center;
+  background-color: white;
+  width:70px;
+  height: inherit;
+  line-height: 50px;
+  border:1px solid rgb(217,217,217);
+  border-right: 0;
+  color: #cbcbcb;
+  font-size: 14px;
+  font-family: Lato-Thin;
+  font-weight: 400;
+  float: left;
+}
+
+.vert{
+  position: relative;
+  margin-top: 9px;
+  width: 1px;
+  height: 32px;
+  background-color: #d9d9d9;
+  float: left;
+}
+
+.domain-name{
+  width:728px;
+  height:inherit;
+  padding-left: 15px;
+  float: left;
+  border-width: 0;
+}
+
+.domain-name:focus{
+  color:#868686;
+  outline: none;
+}
+
+.select-domain{
+  position: relative;
+  width: 80px;
+  height: 50px;
+  padding-left: 15px;
+  z-index: 0;
+}
+
+
+.select-domain:focus{
+  outline: none;
+}
+
+
+
+
+
+
+/*----------END DOMAIN----------*/
