@@ -199,6 +199,7 @@
   position: relative;
   margin-top: 9px;
   width: 1px;
+  margin-left: -2px;
   height: 32px;
   background-color: #d9d9d9;
   float: left;
@@ -210,7 +211,7 @@
   padding-left: 15px;
   float: left;
   color:#868686;
-  border-width: 0;
+  border: none;
 }
 
 .domain-name:focus{
@@ -223,11 +224,13 @@
   width:15px;
   margin-left: 60px;
   line-height: 48px;
-  z-index:1
+  color: #cbcbcb;
+  z-index:1;
 }
 
 .select-domain{
   border:1px solid rgb(217,217,217);
+  border-left: 0;
   outline: none;
 }
 
