@@ -179,6 +179,7 @@
   margin-left: auto;
   margin-right: auto;
   height: 50px;
+  outline:1px solid rgb(217,217,217);
 }
 .www{
   text-align: center;
@@ -186,7 +187,6 @@
   width:70px;
   height: inherit;
   line-height: 50px;
-  border:1px solid rgb(217,217,217);
   border-right: 0;
   color: #cbcbcb;
   font-size: 14px;
@@ -209,11 +209,36 @@
   height:inherit;
   padding-left: 15px;
   float: left;
+  color:#868686;
   border-width: 0;
 }
 
 .domain-name:focus{
-  color:#868686;
+  outline: none;
+}
+
+.fa-angle-down{
+  position: absolute;
+  background-color: white;
+  width:15px;
+  margin-left: 60px;
+  line-height: 48px;
+  z-index:1
+}
+
+.select-domain{
+  border:1px solid rgb(217,217,217);
+  outline: none;
+}
+
+.select-domain:focus{
+  outline: none;
+  border-left: none;
+}
+
+.select-domain:hover{
+  border:none;
+  border-left: 0;
   outline: none;
 }
 
@@ -223,16 +248,7 @@
   height: 50px;
   padding-left: 15px;
   z-index: 0;
+  border: none;
+  color: #cbcbcb;
 }
-
-
-.select-domain:focus{
-  outline: none;
-}
-
-
-
-
-
-
 /*----------END DOMAIN----------*/
